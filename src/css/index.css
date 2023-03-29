@@ -216,6 +216,70 @@
 /* ************************ */
 /* cards-section */
 .hot-car-section {
+  padding: 0 3.6rem;
+  background-color: rgba(250, 235, 215, 0.211);
+}
+.hot-cat-title-box {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hot-cat-title {
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+.hot-cat-look-all {
+  font-size: 2rem;
+  color: var(--color-dark--4);
+}
+.hot-car-item {
+  padding: 2rem 0;
+  display: flex;
+  border-top: 0.1rem solid var(--color-dark--3);
+}
+.hot-car-item:last-child {
+  border-bottom: 0.1rem solid var(--color-dark--3);
+  margin-bottom: 2.4rem;
+}
+.hot-car-img {
+  display: block;
+  width: 25rem;
+  border-radius: 2rem;
+}
+.hot-car-item::before {
+  width: 4.1rem;
+  height: 3.4rem;
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 500;
+  background: linear-gradient(var(--color-origin--7), var(--color-origin--6));
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 1.1rem 1.1rem;
+  transform: translateX(2.2rem);
+}
+.hot-car-item--1::before {
+  content: "01";
+}
+.hot-car-item--2::before {
+  content: "02";
+}
+.hot-car-item--3::before {
+  content: "03";
+}
+.hot-cat-text-box {
+  padding: 2rem 3.6rem;
+}
+.hot-cat-text {
+  font-size: 2.8rem;
+}
+.hot-cat-money {
+  color: var(--color-red--3);
+  font-size: 2.8rem;
+  font-weight: 500;
 }
 /* ************************ */
 /* ************************ */

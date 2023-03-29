@@ -29,6 +29,7 @@ body {
   --color-dark--1: #252525;
   --color-dark--2: #6e6e6e;
   --color-dark--3: #e5e5e5;
+  --color-dark--4: #5b5b5b;
 
   --color-red--1: #ff3d4d;
   --color-red--2: #ff2a39;
@@ -39,6 +40,8 @@ body {
   --color-origin--3: #ff8828;
   --color-origin--4: #f4a600;
   --color-origin--5: #ff750c;
+  --color-origin--6: #ff6e02;
+  --color-origin--7: #ffaa16;
 
   --color-blue--1: #4e8fee;
   --color-blue--2: #5397ff;
@@ -56,4 +59,12 @@ body {
   background: linear-gradient(#4481eb, #04befe);
   -webkit-background-clip: text;
   color: transparent;
+}
+a:link,
+a:visited {
+  color: initial;
+}
+a:hover,
+a:active {
+  color: initial;
 }
