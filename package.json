@@ -1,0 +1,21 @@
+{
+  "name": "renrencar",
+  "version": "1.0.0",
+  "description": "人人车移动端",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [
+    "汽车"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "4.6",
+    "jquery": "^3.6.4",
+    "live-server": "^1.2.2",
+    "parcel": "^2.8.3"
+  }
+}

@@ -1,0 +1,45 @@
+*, :before, :after {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  color: var(--color-dark--1);
+  font-family: SourceHanSansCN;
+  line-height: 1;
+  overflow-x: hidden;
+}
+
+:root {
+  --color-brand--1: #4481eb;
+  --color-brand--2: #04befe;
+  --color-brand--3: #7345bc;
+  --color-brand--4: #47a6ff;
+  --color-brand--5: #47a6ff2f;
+  --color-dark--1: #252525;
+  --color-dark--2: #6e6e6e;
+  --color-dark--3: #e5e5e5;
+  --color-red--1: #ff3d4d;
+  --color-red--2: #ff2a39;
+  --color-red--3: #ff6c71;
+  --color-origin--1: #ff562f;
+  --color-origin--2: #ffe0d4;
+  --color-origin--3: #ff8828;
+  --color-origin--4: #f4a600;
+  --color-origin--5: #ff750c;
+  --color-blue--1: #4e8fee;
+  --color-blue--2: #5397ff;
+  --color-blue--3: #cae9ff;
+  --color-light--1: #ececec;
+  --color-light--2: #d6dee0;
+  --color-car-bac--1: #ffdbdc;
+  --color-car-bac--2: #c3dfff;
+  --color-car-bac--3: #fffbe3;
+}
+
+/*# sourceMappingURL=index.e0606c76.css.map */

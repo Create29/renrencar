@@ -1,0 +1,126 @@
+.search-section {
+  padding: 7.9rem 3.6rem 0;
+}
+
+.search-box {
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  display: flex;
+  position: relative;
+}
+
+.search-input {
+  height: 6.9rem;
+  width: 100%;
+  background-color: var(--color-dark--3);
+  border: none;
+  border-radius: 2rem;
+  font-size: 2.4rem;
+}
+
+.search-input::placeholder {
+  font-weight: 400;
+  transform: translateX(8.1rem);
+}
+
+.search-icon {
+  height: 3.6rem;
+  width: 3.6rem;
+  position: absolute;
+  left: 2.7rem;
+}
+
+.notify-icon {
+  height: 4rem;
+  width: 4rem;
+}
+
+.carousel-section {
+  padding: 2.4rem 3.6rem 0;
+}
+
+.carousel-indicators li {
+  height: .6rem;
+  width: 1.4rem;
+  border: none;
+  border-radius: .8rem;
+  transform: translateY(-.5rem);
+}
+
+.carousel-caption-self {
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 7.53%;
+  right: 0;
+}
+
+.caption-self-box {
+  height: 100%;
+  text-align: left;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+
+.carousel-title {
+  text-shadow: .3rem .4rem var(--color-brand--3);
+  margin: 0;
+  font-family: Microsoft YaHei;
+  font-size: 5.78rem;
+}
+
+.carousel-text {
+  letter-spacing: .1rem;
+  margin: 2rem 0 0;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.carousel-time {
+  background: linear-gradient(to right, var(--color-brand--4), var(--color-brand--5), #fff0);
+  align-self: flex-start;
+  margin: 1.7rem 0 0;
+  padding: .8rem 1rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  transform: translateX(-1rem);
+}
+
+.carousel-img {
+  width: 36.3rem;
+  height: 13.9rem;
+  display: block;
+  position: absolute;
+  bottom: 3.6rem;
+  right: .5rem;
+}
+
+.king-section {
+  padding: 2.4rem 3.6rem;
+}
+
+.kings-box {
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  row-gap: 4.6rem;
+  display: grid;
+}
+
+.king-item {
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  display: flex;
+}
+
+.king-icon {
+  height: ;
+}
+
+.king-text {
+  font-size: 2.4rem;
+}
+
+/*# sourceMappingURL=index.3092e1e0.css.map */
