@@ -42,4 +42,10 @@ body {
   --color-car-bac--3: #fffbe3;
 }
 
+.nav-item--active .nav-text {
+  background: linear-gradient(#4481eb, #04befe);
+  -webkit-background-clip: text;
+  color: #0000;
+}
+
 /*# sourceMappingURL=index.e0606c76.css.map */
