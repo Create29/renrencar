@@ -1,0 +1,179 @@
+.main {
+  padding-bottom: 11.2rem;
+}
+.linear-bac {
+  position: absolute;
+  top: 0;
+  height: 35.7rem;
+  width: 100%;
+  background: linear-gradient(
+    var(--color-brand--1),
+    rgb(137, 197, 240),
+    rgba(255, 255, 255, 0.022)
+  );
+}
+/* ************************ */
+/* ************************ */
+/* search-section */
+.search-section {
+  padding: 7.9rem 3.6rem 0;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+}
+
+.search-input {
+  padding-left: 8.1rem;
+  font-size: 2.4rem;
+  height: 6.9rem;
+  width: 100%;
+  border: none;
+  border-radius: 2rem;
+  background-color: var(--color-dark--3);
+}
+.search-icon {
+  height: 3.6rem;
+  width: 3.6rem;
+  position: absolute;
+  left: 2.7rem;
+}
+.notify-icon {
+  height: 4rem;
+  width: 4rem;
+}
+/* ************************ */
+/* ************************ */
+/* carousel-section */
+.carousel-section {
+  /* background-color: aqua; */
+  padding: 3.5rem 3.6rem 2.4rem 3.6rem;
+}
+.carousel-indicators li {
+  border: none;
+  transform: translateY(-0.5rem);
+  height: 0.8rem;
+  width: 0.8rem;
+  border-radius: 50%;
+}
+.carousel-item {
+  height: 28.3rem;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+.carousel-item img {
+  width: 43.8rem;
+  height: 100%;
+  position: absolute;
+  right: -6.8em;
+}
+.carousel-caption-self {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgb(79, 144, 238),
+    rgba(107, 159, 243, 0.99),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.caption-self-box {
+  position: absolute;
+  left: 4%;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  /* background-color: antiquewhite; */
+}
+
+.carousel-title {
+  font-family: "Microsoft YaHei";
+  font-size: 5.78rem;
+  margin: 0;
+}
+.carousel-text {
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin: 0;
+  margin-top: 2.4rem;
+  letter-spacing: 0.1rem;
+}
+.carousel-time {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin: 0;
+  margin-top: 3.2rem;
+  background-color: var(--color-red--3);
+  align-self: flex-start;
+  padding: 0 0.8rem 0 1.4rem;
+  height: 4.2rem;
+  border-radius: 2rem;
+}
+.carousel-right {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  box-sizing: content-box;
+  border: 0.8rem solid #fff;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+.carousel-img {
+  display: block;
+  width: 36.3rem;
+  height: 13.9rem;
+  position: absolute;
+  right: 0.5rem;
+  bottom: 3.6rem;
+}
+/* ************************ */
+/* ************************ */
+/* king-section */
+.king-section {
+  /* background-color: aqua; */
+  padding: 2.4rem 3.6rem;
+}
+.kings-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 4.6rem;
+}
+.king-item {
+  height: 12rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1.2rem;
+}
+.king-icon-box {
+  position: relative;
+  height: 100%;
+  background-color: aqua;
+}
+.king-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.king-text {
+  font-size: 2.4rem;
+}
