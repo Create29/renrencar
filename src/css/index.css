@@ -22,6 +22,7 @@
   height: 6.9rem;
   width: 100%;
   border: none;
+  outline: none;
   border-radius: 2rem;
   background-color: var(--color-dark--3);
 }

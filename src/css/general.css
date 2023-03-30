@@ -19,6 +19,11 @@ body {
   overflow-x: hidden;
 }
 
+input {
+  border: none;
+  outline: none;
+}
+
 :root {
   --color-brand--1: #4481eb;
   --color-brand--2: #04befe;
