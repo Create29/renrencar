@@ -16,13 +16,9 @@ body {
   color: var(--color-dark--1);
 
   /* 如果绝对定位没有设置相对位置则不生效 */
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
-input {
-  border: none;
-  outline: none;
-}
 
 :root {
   --color-brand--1: #4481eb;
@@ -65,11 +61,16 @@ input {
   -webkit-background-clip: text;
   color: transparent;
 }
-a:link,
-a:visited {
-  color: initial;
+.goto-view{
+  text-decoration: none;
 }
-a:hover,
-a:active {
+.goto-view:link,
+.goto-view:visited {
   color: initial;
+  text-decoration: none;
+}
+.goto-view:hover,
+.goto-view:active {
+  color: initial;
+  text-decoration: none;
 }
