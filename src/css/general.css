@@ -19,7 +19,6 @@ body {
   /* overflow-x: hidden; */
 }
 
-
 :root {
   --color-brand--1: #4481eb;
   --color-brand--2: #04befe;
@@ -56,12 +55,51 @@ body {
   --color-car-bac--3: #fffbe3;
 }
 
+/* ************************ */
+/* ************************ */
+/* nav-section */
+.nav-section {
+  width: 100%;
+  padding: 1.3rem 0;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  z-index: 200;
+}
+.nav-box {
+  display: flex;
+  justify-content: space-around;
+}
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav-img-box {
+  height: 4rem;
+  position: relative;
+}
+.nav-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.nav-text {
+  font-weight: 500;
+  font-size: 2.4rem;
+  margin-top: 1rem;
+}
+/* ************************ */
+/* ************************ */
+/* nav-item--active */
 .nav-item--active .nav-text {
   background: linear-gradient(#4481eb, #04befe);
   -webkit-background-clip: text;
   color: transparent;
 }
-.goto-view{
+
+.goto-view {
   text-decoration: none;
 }
 .goto-view:link,

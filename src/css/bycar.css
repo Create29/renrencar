@@ -216,4 +216,93 @@
 /* ************************ */
 /* car-slider-section */
 .car-Slider-section {
+  padding: 1.9rem 3rem 0;
+}
+
+.swiper {
+  height: 15.5rem;
+}
+.swiper-wrapper {
+  width: 100%;
+  display: flex;
+  gap: 2.5rem;
+}
+.swiper-slide {
+  width: 20.4rem !important;
+  border-radius: 2rem;
+  overflow: hidden;
+  margin: 0 !important;
+  border: 0.1rem solid var(--color-dark--3);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.swiper-slide img {
+  margin: auto 0;
+  width: 14.6rem;
+  display: block;
+  /* height: 100%; */
+}
+.swiper-slide p {
+  width: 100%;
+  text-align: center;
+  font-size: 2.4rem;
+  height: 4.1rem;
+  margin: 0;
+  background-color: var(--color-dark--3);
+}
+/* ************************ */
+/* ************************ */
+/* hot-car-section-section */
+.hot-car-section {
+  padding: 2rem 3.6rem 0;
+}
+.hot-car-item {
+  padding: 1.2rem 0;
+  display: flex;
+  align-items: center;
+  border-top: 0.1rem solid var(--color-dark--3);
+}
+.hot-car-item:first-child {
+  border-top: none;
+}
+.hot-car-img {
+  width: 24.9rem;
+  display: block;
+  border-radius: 2rem;
+}
+.hot-cat-text-box {
+  padding: 0.8rem 3.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.hot-cat-text-box * {
+  margin: 0;
+}
+.hot-cat-text {
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+.hot-cat-version {
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+.hot-cat-man-price {
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: #6c6c6c;
+}
+
+.hot-cat-money {
+  color: var(--color-red--3);
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+.price {
+  font-size: 3.2rem;
+  font-weight: 600;
+  margin-right: 0.2rem;
 }

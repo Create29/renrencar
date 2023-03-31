@@ -11,9 +11,13 @@
       href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="../node_modules/swiper/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="../src/css/bycar.css" />
     <link rel="stylesheet" href="../src/css/queries.css" />
-    <script defer src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
     <script
       type="module"
       defer
@@ -27,7 +31,11 @@
         <div class="search-box">
           <img class="search-icon" src="../src/icon/function01.png" alt="" />
           <input class="search-input" type="text" placeholder="搜索车型" />
-          <img class="notify-icon" src="../src/icon/function02.png" alt="" />
+          <img
+            class="notify-icon"
+            src="../src/icon/function02-white.png"
+            alt=""
+          />
         </div>
       </section>
       <section class="carousel-section">
@@ -168,7 +176,136 @@
           </div>
         </div>
       </section>
-      <section class="car-Slider-section"></section>
+      <section class="car-Slider-section">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="../src/img/car07.png" alt="" />
+              <p>三厢轿车</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="../src/img/car08.png" alt="" />
+              <p>两厢轿车</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="../src/img/car09.png" alt="" />
+              <p>SUV</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="../src/img/car07.png" alt="" />
+              <p>三厢轿车</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="../src/img/car08.png" alt="" />
+              <p>两厢轿车</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="../src/img/car09.png" alt="" />
+              <p>SUV</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="hot-car-section">
+        <div class="hot-car-box">
+          <div class="hot-car-item">
+            <img class="hot-car-img" src="../src/img/car05.png" alt="" />
+            <div class="hot-cat-text-box">
+              <p class="hot-cat-text">588ku 2019款 3.0T 自动</p>
+              <p class="hot-cat-version">天窗版</p>
+              <p class="hot-cat-man-price">厂商指导价: 13.05万</p>
+              <p class="hot-cat-money">
+                首付 <span class="price">5000</span>元
+              </p>
+            </div>
+          </div>
+          <div class="hot-car-item">
+            <img class="hot-car-img" src="../src/img/car05.png" alt="" />
+            <div class="hot-cat-text-box">
+              <p class="hot-cat-text">588ku 2019款 3.0T 自动</p>
+              <p class="hot-cat-version">天窗版</p>
+              <p class="hot-cat-man-price">厂商指导价: 13.05万</p>
+              <p class="hot-cat-money">
+                首付 <span class="price">5000</span>元
+              </p>
+            </div>
+          </div>
+          <div class="hot-car-item">
+            <img class="hot-car-img" src="../src/img/car05.png" alt="" />
+            <div class="hot-cat-text-box">
+              <p class="hot-cat-text">588ku 2019款 3.0T 自动</p>
+              <p class="hot-cat-version">天窗版</p>
+              <p class="hot-cat-man-price">厂商指导价: 13.05万</p>
+              <p class="hot-cat-money">
+                首付 <span class="price">5000</span>元
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+    <nav class="nav-section">
+      <div class="nav-box">
+        <a class="goto-view" href="../index.html">
+          <div class="nav-item">
+            <div class="nav-img-box">
+              <img class="nav-img" src="../src/icon/function08.png" alt="" />
+            </div>
+            <span class="nav-text">首页</span>
+          </div>
+        </a>
+        <a class="goto-view nav-item--active" href="views/bycat.html">
+          <div class="nav-item">
+            <div class="nav-img-box">
+              <img
+                class="nav-img"
+                src="../src/icon/function05-active.png"
+                alt=""
+              />
+            </div>
+            <span class="nav-text">买车</span>
+          </div>
+        </a>
+        <a class="goto-view" href="views/bycat.html">
+          <div class="nav-item">
+            <div class="nav-img-box">
+              <img class="nav-img" src="../src/icon/function05.png" alt="" />
+            </div>
+            <span class="nav-text">租车</span>
+          </div>
+        </a>
+        <a class="goto-view" href="views/bycat.html">
+          <div class="nav-item">
+            <div class="nav-img-box">
+              <img class="nav-img" src="../src/icon/function05.png" alt="" />
+            </div>
+            <span class="nav-text">卖车</span>
+          </div>
+        </a>
+        <a class="goto-view" href="views/bycat.html">
+          <div class="nav-item">
+            <div class="nav-img-box">
+              <img class="nav-img" src="../src/icon/function05.png" alt="" />
+            </div>
+            <span class="nav-text">我的</span>
+          </div>
+        </a>
+      </div>
+    </nav>
+    <!-- Swiper JS -->
+    <script src="../node_modules/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        freeMode: true,
+        // pagination: {
+        //   el: ".swiper-pagination",
+        //   clickable: true,
+        // },
+      });
+    </script>
   </body>
 </html>
