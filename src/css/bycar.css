@@ -152,7 +152,7 @@
 .kings-box {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
   row-gap: 4.6rem;
 }
 .king-item {
@@ -176,4 +176,44 @@
 }
 .king-text {
   font-size: 2.4rem;
+}
+/* ************************ */
+/* ************************ */
+/* pulldown-section */
+.pulldown-section {
+  /* background-color: aqua; */
+  border-top: 0.8rem solid #e5e5e58d;
+  border-bottom: 0.1rem solid #e5e5e58d;
+  padding: 2.4rem 3.6rem;
+}
+.pulldown-box {
+  display: flex;
+  justify-content: space-around;
+}
+.pulldown-item {
+  position: relative;
+  padding-right: 3.6rem;
+}
+.pulldown-item select {
+  border: none;
+  background: transparent;
+  font-size: 2.8rem;
+  appearance: none;
+}
+.pulldown-item::before {
+  content: "";
+  padding: 1.2rem;
+  width: 14px;
+  height: 8px;
+  background: url(../icon/pulldown.png) no-repeat;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-20%);
+}
+
+/* ************************ */
+/* ************************ */
+/* car-slider-section */
+.car-Slider-section {
 }
