@@ -153,26 +153,33 @@
 	
 	
 }
-.infobuttom-box{}
+.infobuttom-box{
+  
+}
 .firstinfo{
 	font-size: 2.808rem;
 	text-align: center;
+  margin-bottom: 5.4rem;
 }
-.infobuttom-box-png{}
-.infobuttom-png-item{
-  padding-left: 11.6rem;
-  padding-top: 5.1rem;
-  width: 7.2rem;
-  height: 7.2rem;
+.infobuttom-box-png{
+  display: flex;
+  justify-content:space-around;
   
 }
+.infobuttom-png-item{
+  width: 7.2rem;
+  height: 7.2rem;
+}
 .infobuttom-png-div{
+  position: relative;
   background-color: #E5E5E5 ;
   width: 7.2rem;
   height: 7.2rem;
   border-radius: 100%;
 }
 .infobuttom-img{
-  padding: 1.4rem 1.9rem ;
-  
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
