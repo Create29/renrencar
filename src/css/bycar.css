@@ -8,8 +8,7 @@
   width: 100%;
   background: linear-gradient(
     var(--color-brand--1),
-    rgb(137, 197, 240),
-    rgba(255, 255, 255, 0.022)
+    rgb(137, 197, 240) rgba(255, 255, 255, 0.022)
   );
 }
 /* ************************ */
