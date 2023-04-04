@@ -1,0 +1,37 @@
+.main {
+  padding-bottom: 11.2rem;
+}
+.linear-bac {
+  position: absolute;
+  top: 0;
+  height: 91rem;
+  width: 100%;
+  background: linear-gradient(
+    var(--color-brand--1),
+    rgb(137, 197, 240),
+    rgba(255, 255, 255, 0.022)
+  );
+ z-index: -2;
+}
+.settingsvg {
+  display: flex;
+  justify-content: space-between;
+  
+  align-items: center;
+}
+
+.settingsvg-box{
+    height: 9.3rem;
+    display: flex;
+}
+
+.settingicon{
+ width: 3.8rem;
+ height: 4.4rem;
+}
+.hiword {
+    align-self: flex-end;
+  font-size: 4.8rem;
+  color: white;
+  letter-spacing: 0.6rem;
+}
