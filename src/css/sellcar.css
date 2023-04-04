@@ -26,6 +26,7 @@
 	color: white;
 	font-size: 3.2rem;
 	font-weight: 500;
+  letter-spacing: 0.3rem;
  }
 
  .backsvg{
@@ -35,11 +36,32 @@
 	align-items: center;
  }
 
- .cityselectionimg {
-  margin-left: 0.7rem;
-  width: 1.36rem;
-  height: 0.68rem;
- }
+.select-box {
+  position: relative;
+}
+
+.choose-select {
+  border: none;
+  background-color: transparent;
+  font-size: 2.8rem;
+  font-weight: 500;
+  padding-right: 3.2rem;
+  appearance: none;
+  letter-spacing: 0.2rem;
+  color: white;
+}
+
+.select-box::before {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-30%);
+  content: "";
+  border: 0.72rem solid white;
+  border-left: 0.72rem solid transparent;
+  border-right: 0.72rem solid transparent;
+  border-bottom: 0.72rem solid transparent;
+}
 
  .cityselectiondiv span{
   font-size: 2.8rem;
