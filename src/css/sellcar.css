@@ -1,17 +1,25 @@
 /* ************************ */
 /* ************************ */
 /* backsvg */
+.main {
+  padding-bottom: 11.2rem;
+}
+
 .function02icon{
   width: 3.9rem;
   height: 4.1rem;
 }
 
-.bgpng {
+.backdiv {
   position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.bgpng {
 	top: 0;
-	height: 44.9rem;
 	width: 100%;
-	z-index:-1;
+	z-index:-2;
 }
 
 .backsvg span{
@@ -46,10 +54,8 @@
   background: #FFFFFF;
   border-radius: 2rem;
   box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.2);
-  position: absolute;
-  top:39.7rem;
-  left: 50%;
-  transform: translateX(-50%);
+  margin: 0 auto;
+  transform: translateY(-10%);
 }
 
 
@@ -106,10 +112,85 @@
 /* middle div */
 .midllediv {
   width: 92%;
-  position: absolute;
-  top: 84.3rem;
-  left: 50%;
-  transform: translateX(-50%);
+  margin: 0 auto 4rem;
+}
+
+.sellprice {
+  height: 3rem;
+  font-size: 3.2rem;
+  font-family: SourceHanSansCN;
+  font-weight: 500;
+  color: #303030;
+  letter-spacing: 0.2rem;
+  margin-top: 2rem;
+}
+
+.midlleSquare {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  width: 2.2rem;
+  height: 0.5rem;
+  background: linear-gradient(0deg, #4481EB, #04BEFE);
+}
+
+.midlleTitle {
+  font-size: 2.8rem;
+  font-family: Adobe Heiti Std;
+  font-weight: normal;
+  color: #303030;
+  letter-spacing: 0.2rem;
+  line-height: 4rem;
+}
+
+.midlleTitle p{
+  margin: 0;
+}
+
+/* ************************ */
+/* ************************ */
+/* bottomSection */
+.bottomDiv {
+  width: 92%;
+  margin: 0 auto 1rem;
+  background: #FFFFFF;
+  border: 0.1rem solid #E5E5E5;
+  border-radius: 2rem;
+  padding: 1.5rem 1.5rem;
+}
+
+.bootomText {
+  font-size: 2.2rem;
+  font-family: SourceHanSansCN;
+  font-weight: 400;
+  color: #FF6028;
+  margin-bottom: 2rem;
+}
+
+.sellcarimg {
+  height: 15.4rem;
+  display: block;
+  margin-right: 3rem;
+}
+
+.sellcarbox {
+  display: flex;
+  justify-content:baseline;
+}
+
+.message{
+  font-size: 2.4rem;
+  font-family: Adobe Heiti Std;
+  font-weight: normal;
+  color: #2D2D2D;
+  letter-spacing: 0.2rem;
+}
+
+.mileage{
+  margin-top: 2rem;
+  font-size: 2.2rem;
+  font-family: SourceHanSansCN;
+  font-weight: 400;
+  color: #666666;
 }
 
 /* ************************ */

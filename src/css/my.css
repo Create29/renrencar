@@ -1,0 +1,143 @@
+.main {
+  padding-bottom: 14rem;
+}
+
+.linear-bac {
+  position: absolute;
+  top: 0;
+  height: 42.6rem;
+  width: 100%;
+  background: linear-gradient(var(--color-brand--1),
+      rgb(137, 197, 240),
+      rgba(255, 255, 255, 0.022));
+  z-index: -2;
+}
+
+.settingsvg {
+  display: flex;
+  justify-content: space-between;
+  padding: 8.3rem 3.1rem 0 3.1rem;
+  align-items: center;
+}
+
+.settingsvg-box {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+
+}
+
+.settingicon {
+  align-self: flex-end;
+  width: 3.8rem;
+  height: 4.4rem;
+}
+
+.hiword {
+  
+  font-size: 4.8rem;
+  color: white;
+  letter-spacing: 0.6rem;
+  margin: 0;
+}
+
+.myloginandregiest {
+  padding: 0 3.3rem;
+}
+
+.myloginandregiest-box {
+  margin-top: 3.3rem;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 2rem;
+  box-shadow: 0 1rem 0.8rem rgba(68, 129, 235, 0.1);
+  padding: 5.7rem 1.9rem 0 1.9rem;
+}
+
+.head-box {
+  display: flex;
+  align-items: center;
+  gap: 1.9rem;
+
+}
+
+.head-box-img {
+  width: 6rem;
+  height: 5.8rem;
+}
+
+.head-box-p {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.myloginandregiest-info-box {
+  display: flex;
+  padding: 5.7rem 4.7rem 3.4rem 4.7rem;
+  justify-content:space-between ;}
+.info-box {}
+.info-box-p1 {
+  font-size: 2.945rem;
+  text-align: center;}
+.info-box-p2 {
+  font-size: 2.356rem;}
+
+
+
+
+.myfunctionlist{
+  padding:0 3.6rem;
+  margin-top: 3.6rem;
+  
+}
+.myfunctionlist-box{
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 2rem;
+ box-shadow: 0 0 1.4rem rgba(68, 129, 235, 0.2);
+  padding: 1.2rem 2.8rem;
+  width: 100%;
+}
+.myfunctioninfo{
+display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  gap: 1.5rem;
+  height: 7.4rem;
+  width: 100%;
+  position: relative;
+}
+.myfunctioninfo::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 97%;
+  border-bottom: 0.1rem solid #E5E5E5;
+}
+.myfunctioninfo:last-child::after{
+  border: none;
+}
+
+.myfunctioninfo:last-child{
+  border: none;
+}
+.myfunctioninfo-img1{
+  width: 2.4rem;
+  height: 2.4rem;
+}
+.myfunctioninfo-img2{
+  width: 0.99rem;
+  height: 1.84rem;
+  margin-left: auto;
+  
+}
+.myfunctioninfo-p{
+  font-size: 2.749rem;
+  margin: 0;
+}
+
