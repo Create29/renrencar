@@ -76,6 +76,7 @@
   font-weight: 500;
   padding-right: 3.2rem;
   appearance: none;
+  background-color: transparent;
 }
 .select-box::before {
   position: absolute;
