@@ -1,0 +1,201 @@
+/* ************************ */
+/* ************************ */
+/* headsection */
+.main {
+    padding-bottom: 11.2rem;
+}
+
+.headDiv {
+    position: absolute;
+    top: 0;
+    background: linear-gradient(180deg, #4481EB 0%, #04BEFE 100%);
+    width: 100%;
+    height: 15rem;
+    z-index: -2;
+}
+
+.function02icon {
+    margin-top: 1rem;
+    height: 3rem;
+}
+
+.headDiv span {
+    font-size: 3.2rem;
+    font-family: Adobe Heiti Std;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+.head-content {
+    display: flex;
+    justify-content:space-between;
+    margin: 8.4rem 3.1rem 0 3.1rem;
+}
+
+.head-content span {
+    font-size: 3.2rem;
+    color: white;
+    letter-spacing: 0.3rem;
+}
+
+.back {
+    margin-top: 1.2rem;
+    width: 1.47rem;
+    height: 2.65rem;
+}
+
+.head-img {
+    top: 0;
+    width: 100%;
+    height: 15rem;
+    z-index: -1;
+}
+
+/* ************************ */
+/* ************************ */
+/* dialogsection */
+.dialogsection {
+    margin-top: 5.4rem;
+}
+
+.datediv{
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: SourceHanSansCN;
+    font-weight: 400;
+    color: #525252;
+}
+
+.custom02dialog {
+    margin-top: 5.4rem;
+    margin-left: 3.5rem;
+    display: flex;
+    justify-content: baseline;
+}
+
+.custim02img{
+    width: 6.7rem;
+    height: 6.6rem;
+}
+
+.custom02-content {
+    padding-left: 1.2rem;
+    padding-top: 1.8rem;
+    margin-left: 2rem;
+    width: 47.3rem;
+    background: linear-gradient(0deg, #E2EDFC, #DAF5FF);
+    border-radius: 0 2rem 0 2rem;
+}
+
+.custom02message {
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: #1F1F1F;
+    letter-spacing: 0.1rem;
+}
+
+.custom01dialog {
+    margin-top: 5.1rem;
+    display: flex;
+    justify-content: end;
+}
+
+.custom01-content{
+    width: 39.4rem;
+    background: linear-gradient(0deg, #679DF0, #37CBFE);
+    border-radius: 2rem 0 2rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.custom01message {
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 0;
+    margin-left: 2.9rem;
+}
+
+.custim01img {
+    margin-left: 1.7rem;
+    margin-right: 3.1rem;
+    width: 6.8rem;
+    height: 6.6rem;
+}
+
+.custom01-content02 {
+    width: 47.3rem;
+    background: linear-gradient(0deg, #679DF0, #37CBFE);
+    border-radius: 2rem 0 2rem 0;
+}
+
+.custom01message02 {
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 1.5rem;
+    margin-left: 2.9rem;
+}
+
+.custom01-content03 {
+    width: 29.45rem;
+    background: linear-gradient(0deg, #679DF0, #37CBFE);
+    border-radius: 2rem 0 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2.4rem;
+    align-items: center;
+}
+
+.voiceimg {
+    width: 5.5rem;
+    height: 3.1rem;
+}
+
+.voicetime {
+    font-size: 2.24rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+/* ************************ */
+/* ************************ */
+/* nav_section */
+.nav_section {
+    width: 100%;
+    background-color: #E6E6E6;
+    padding: 1.3rem 3.6rem 1.1rem 3.5rem;
+    position: fixed;
+    bottom: 0;
+    z-index: 200;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
+
+/* .nav-div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+} */
+
+.inputmessage {
+    width: 55.5rem;
+    height: 6.6rem;
+    background: #FFFFFF;
+    border-radius: 2rem;
+    outline: none;
+    border: none;
+}
+
+.emoteimg {
+    margin-left: 2.8rem;
+    width: 3.7rem;
+    height: 3.7rem;
+}
+
+.moreimg {
+    margin-left: 2.5rem;
+    width: 3.6rem;
+    height: 3.6rem;
+}
