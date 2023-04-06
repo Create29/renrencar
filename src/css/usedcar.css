@@ -163,18 +163,18 @@
 
 .userdcarlist-info p:nth-child(1) {
   color: #373737;
-  font-size: 2.8px;
+  font-size: 2.8rem;
 }
 
 .userdcarlist-info p:nth-child(2) {
-  font-size: 2.8px;
+  font-size: 2.8rem;
   color: #373737;
   margin-top: 0.2rem;
 
 }
 
 .userdcarlist-info p:nth-child(3) {
-  font-size: 2.4px;
+  font-size: 2.8rem;
   color: #6E6E6E;
   margin-top: 1rem;
 
