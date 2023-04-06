@@ -1,0 +1,189 @@
+.main {
+  padding-bottom: 11.2rem;
+}
+
+.linear-bac {
+  position: absolute;
+  top: 0;
+  height: 44.6rem;
+  width: 100%;
+  background: linear-gradient(var(--color-brand--1),
+      rgb(137, 197, 240),
+      rgba(255, 255, 255, 0.022));
+  z-index: -2;
+}
+
+.usedcarsvg {
+  display: flex;
+  justify-content: space-between;
+  padding: 8.7rem 5.1rem;
+  align-items: center;
+}
+
+.usedcarsvg span {
+  color: white;
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+
+.usedcarback {
+  width: 1.47rem;
+  height: 2.65rem;
+}
+
+.usedcarlinglingicon {
+  height: 3.6rem;
+  width: 3.4rem;
+}
+
+.usedcarlinglingicon {
+  height: 3.6rem;
+  width: 3.4rem;
+}
+
+.usedcarlist {
+  padding: 0 5.2rem;
+
+
+}
+
+.usedcarlist-box {
+  display: flex;
+  flex-direction: row;
+  /* padding: 6.6rem 2.5rem 0 2.5rem; */
+  background: white;
+  border-radius: 2rem;
+  box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  /* height: 24.1rem; */
+  margin-bottom: 3.1rem;
+}
+
+.usedcarlist-car {
+  width: 42%;
+  position: relative;
+
+}
+
+.usedcarlist-car::before {
+  font-size: 2.4rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  transform: translateY(-0.4rem);
+  content: "";
+  position: absolute;
+  left: 2rem;
+  top: 0.3rem;
+  width: 3.8rem;
+  height: 3.9rem;
+  background: url(../icon/usedcar-1.png) no-repeat;
+  background-size: 3.8rem 3.9rem;
+}
+
+.usedcarlist-car--2::before {
+  font-size: 2.4rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  transform: translateY(-0.4rem);
+  content: "";
+  position: absolute;
+  left: 2rem;
+  top: 0.4rem;
+  width: 3.8rem;
+  height: 3.9rem;
+  background: url(../icon/usedcar-2.png) no-repeat;
+  background-size: 3.8rem 3.9rem;
+}
+
+.usedcarlist-car--3::before {
+  font-size: 2.4rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  transform: translateY(-0.4rem);
+  content: "";
+  position: absolute;
+  left: 2rem;
+  top: 0.5rem;
+  width: 3.8rem;
+  height: 3.9rem;
+  background: url(../icon/usedcar-3.png) no-repeat;
+  background-size: 3.8rem 3.9rem;
+}
+
+
+.usedcarlist-car--4::before {
+  background:none;
+}
+
+.usedcarlist-car--5::before {
+   background:none;
+}
+
+.usedcarlist-car::after {
+  content: "1";
+  position: absolute;
+  left: 3.2rem;
+  color: white;
+  top: -0.2rem;
+  font-size: 2.4rem;
+
+}
+
+
+.usedcarlist-car--2::after {
+  content: "2";
+  top: 0.2rem;
+}
+
+
+.usedcarlist-car--3::after {
+    top: 0.2rem;
+  content: "3";
+}
+.usedcarlist-car--4::after {
+  content: "";
+}
+.usedcarlist-car--5::after { 
+  content: "";
+}
+.usedcarlist-car-img {
+  width: 100%;
+}
+
+.userdcarlist-info {
+  padding: 2.1rem 2rem;
+}
+
+.userdcarlist-info p {
+  margin: 0;
+}
+
+.userdcarlist-info p:nth-child(1) {
+  color: #373737;
+  font-size: 2.8rem;
+}
+
+.userdcarlist-info p:nth-child(2) {
+  font-size: 2.8rem;
+  color: #373737;
+  margin-top: 0.2rem;
+
+}
+
+.userdcarlist-info p:nth-child(3) {
+  font-size: 2.8rem;
+  color: #6E6E6E;
+  margin-top: 1rem;
+
+}
+
+.userdcarlist-info p:nth-child(4) {
+  color: #FF3D4D;
+  font-size: 3.6rem;
+  font-weight: 500;
+
+  margin-top: 1rem;
+}
