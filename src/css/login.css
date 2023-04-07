@@ -52,8 +52,6 @@
 }
 .inputuser {
   padding: 0 5.1rem;
-
-
 }
 .inputuer-box {
   display: flex;
@@ -62,8 +60,6 @@
   background: white;
   border-radius: 2rem;
   box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.2);
-
-  
 }
 .usernumber {
   height: 9.6rem;
@@ -140,47 +136,49 @@
 }
 
 .usertext {
-	margin: 0;
-	margin-bottom :1.9rem; ;
-	margin-top: 3.5rem;
-	color: #767676;
-	font-size: 2.4rem;
-	text-align: center;
-	
+  margin: 0;
+  margin-bottom: 1.9rem;
+  margin-top: 3.5rem;
+  color: #767676;
+  font-size: 2.4rem;
+  text-align: center;
 }
 
-.infobuttom-section{
-	padding: 15.3rem 2.9rem 0 2.9rem;
-	
-	
+.infobuttom-section {
+  padding: 15.3rem 2.9rem 0 2.9rem;
 }
-.infobuttom-box{
-  
+.infobuttom-box {
 }
-.firstinfo{
-	font-size: 2.808rem;
-	text-align: center;
+.firstinfo {
+  font-size: 2.808rem;
+  text-align: center;
   margin-bottom: 5.4rem;
 }
-.infobuttom-box-png{
+.infobuttom-box-png {
   display: flex;
-  justify-content:space-around;
-  
+  justify-content: space-around;
 }
-.infobuttom-png-item{
+.infobuttom-png-item {
   width: 7.2rem;
   height: 7.2rem;
 }
-.infobuttom-png-div{
+.infobuttom-png-div {
   position: relative;
-  background-color: #E5E5E5 ;
+  background-color: #e5e5e5;
   width: 7.2rem;
   height: 7.2rem;
   border-radius: 100%;
 }
-.infobuttom-img{
-  position:absolute;
+.infobuttom-img {
+  width: 4.4rem;
+  position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
+}
+.infobuttom-img--2 {
+  width: 3rem;
+}
+.infobuttom-img--3 {
+  width: 4.5rem;
 }

@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////
 // 粘性导航
-const sectionHeroEl = document.querySelector(".carousel-section");
+const sectionHeroEl = document.querySelector(".floatdiv-section");
 const main = document.querySelector(".main");
 
 const obs = new IntersectionObserver(

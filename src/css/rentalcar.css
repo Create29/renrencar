@@ -1,3 +1,16 @@
+.sticky .main-nav-section {
+  position: fixed;
+  width: 100%;
+  padding: 1.8rem 3.6rem 4.8rem !important;
+  background: linear-gradient(var(--color-brand--1), rgb(137, 197, 240));
+  z-index: 9999;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+  transition: all 300ms;
+}
+.sticky .hot-car-section {
+  margin-top: 10.6rem;
+}
+
 .main {
   padding-bottom: 11.2rem;
 }

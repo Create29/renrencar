@@ -12,10 +12,15 @@
 /* ************************ */
 /* ************************ */
 /* head--section */
-.head-box {
-  padding: 8.4rem 3.1rem 0 3.1rem;
+.head-section {
+  padding: 0 3.1rem;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 .head-box {
+  margin-bottom: 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,8 +32,82 @@
 .head-text {
   font-size: 3.2rem;
   color: #fff;
+  margin: 0;
 }
 .head-message-icon {
   width: 3.4rem;
   height: 3.5rem;
+}
+/* ************************ */
+/* ************************ */
+/* city--section */
+.city-section {
+  margin-top: 0rem;
+  padding: 2.7rem 3.2rem;
+  border-bottom: 0.8rem solid #e5e5e5;
+  /* background-color: #4481eb; */
+}
+.city-box {
+  display: flex;
+  justify-content: space-between;
+}
+.select-box {
+  position: relative;
+}
+.choose-select {
+  border: none;
+  background-color: transparent;
+  font-size: 2.6rem;
+  font-weight: 500;
+  padding-right: 2rem;
+  appearance: none;
+  letter-spacing: 0.2rem;
+  color: #252525;
+}
+
+.select-box::before {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-15%);
+  content: "";
+  border: 0.72rem solid #252525;
+  border-left: 0.72rem solid transparent;
+  border-right: 0.72rem solid transparent;
+  border-bottom: 0.72rem solid transparent;
+}
+/* ************************ */
+/* ************************ */
+/* car--section */
+.car-message-section {
+}
+.car-message-box {
+}
+.car-message-item {
+  padding: 3.4rem;
+}
+.car-item1-box {
+  display: flex;
+  gap: 4rem;
+}
+.car-message-img-box {
+}
+.car-img {
+  width: 18.7rem;
+}
+.car-message-text-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.car-message-text {
+}
+.car-message-title {
+  font-size: 3.2rem;
+  color: #252525;
+  font-weight: 500;
+}
+.car-message-time {
+}
+.car-message-line {
 }

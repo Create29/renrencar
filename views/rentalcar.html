@@ -1,194 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>人人汽车网</title>
+    <link rel="icon" href="../src/icon/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../src/css/general.css" />
+    <link
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="../node_modules/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="../src/css/rentalcar.css" />
+    <link rel="stylesheet" href="../src/css/queries.css" />
+    <script
+      type="module"
+      defer
+      src="../node_modules/jquery/dist/jquery.min.js"
+    ></script>
+    <script
+      type="module"
+      defer
+      src="../node_modules/bootstrap/dist/js/bootstrap.min.js"
+    ></script>
+    <script defer src="../src/js/rentalcar.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>人人汽车网</title>
-  <link rel="icon" href="../src/icon/favicon.png" type="image/x-icon" />
-  <link rel="stylesheet" href="../src/css/general.css" />
-  <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="../src/css/rentalcar.css" />
-  <link rel="stylesheet" href="../src/css/queries.css" />
-  <script type="module" defer src="../node_modules/jquery/dist/jquery.min.js"></script>
-  <script type="module" defer src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script defer src="../src/js/rentalcar.js"></script>
-</head>
+  <body>
+    <main class="main">
+      <div class="linear-bac"></div>
+      <section class="main-nav-section">
+        <div class="main-nav-box">
+          <span class="main-nav-item main-nav-item--active">国内租车</span>
+          <span class="main-nav-item">分时租</span>
+          <span class="main-nav-item">长租</span>
+          <span class="main-nav-item">国际租车</span>
+        </div>
+      </section>
+      <section class="choose-address-section">
+        <div class="choose-address-box">
+          <div class="choose-head">
+            <div class="select-box">
+              <select class="choose-select" name="" id="">
+                <option value="">深圳</option>
+                <option value="">深圳</option>
+                <option value="">深圳</option>
+              </select>
+            </div>
 
-<body>
-  <main class="main">
-    <div class="linear-bac"></div>
-    <section class="main-nav-section">
-      <div class="main-nav-box">
-        <span class="main-nav-item main-nav-item--active">国内租车</span>
-        <span class="main-nav-item">分时租</span>
-        <span class="main-nav-item">长租</span>
-        <span class="main-nav-item">国际租车</span>
+            <div class="head-text-box">
+              <p class="head-text-title">深圳大厦自助点</p>
+              <p class="head-text-badge">该门店仅支持自助取车</p>
+            </div>
+          </div>
+          <div class="choose-address">
+            <div class="select-box">
+              <select class="choose-select" name="" id="">
+                <option value="">深圳</option>
+                <option value="">深圳</option>
+                <option value="">深圳</option>
+              </select>
+            </div>
+            <div class="address-text-box">
+              <p class="address-text-title">深圳金融大厦网点</p>
+              <p class="address-text-badge">
+                <span class="text-badge-item">上门</span
+                ><span class="text-badge-item text-badge-item--active"
+                  >到店</span
+                >
+              </p>
+            </div>
+          </div>
+          <div class="choose-time">
+            <div class="choose-time-item">
+              <p class="time-data">2023-04-12</p>
+              <p class="time-min">08:00</p>
+            </div>
+            <div class="choose-time-item">
+              <p class="time-data-span">1天</p>
+              <img
+                class="time-arrow"
+                src="../src/icon/right-arrow.png"
+                alt=""
+              />
+            </div>
+            <div class="choose-time-item">
+              <p class="time-data">2023-04-12</p>
+              <p class="time-min">08:00</p>
+            </div>
+          </div>
+          <bottom class="choose-car-bottom">立即选车</bottom>
+        </div>
+      </section>
+      <section class="hot-car-section">
+        <div class="hot-cat-title-box">
+          <span class="hot-cat-title">顺风车推荐</span>
+          <span class="hot-cat-look-all">查看全部&nbsp;&nbsp;></span>
+        </div>
+        <div class="hot-car-box">
+          <div class="hot-car-item">
+            <img class="hot-car-img" src="../src/img/car10.png" />
+            <div class="hot-car-box">
+              <div class="hot-cat-text-box">
+                <div class="hot-cat-time-item">
+                  <p class="hot-time-data">深圳</p>
+                  <p class="hot-time-min">2022-04-12</p>
+                </div>
+                <img
+                  class="hot-time-arrow"
+                  src="../src/icon/right-arrow-min.png"
+                  alt=""
+                />
+                <div class="hot-cat-time-item hot-cat-time-item--right">
+                  <p class="hot-time-data hot-time-data--right">上海</p>
+                  <p class="hot-time-min">2022-04-12</p>
+                </div>
+              </div>
+              <div class="seat-box">
+                <p class="seat">A车/5座/2.0T</p>
+                <p class="price">¥100</p>
+              </div>
+            </div>
+          </div>
+          <div class="hot-car-item">
+            <img class="hot-car-img" src="../src/img/car10.png" />
+            <div class="hot-car-box">
+              <div class="hot-cat-text-box">
+                <div class="hot-cat-time-item">
+                  <p class="hot-time-data">深圳</p>
+                  <p class="hot-time-min">2022-04-12</p>
+                </div>
+                <img
+                  class="hot-time-arrow"
+                  src="../src/icon/right-arrow-min.png"
+                  alt=""
+                />
+                <div class="hot-cat-time-item hot-cat-time-item--right">
+                  <p class="hot-time-data hot-time-data--right">上海</p>
+                  <p class="hot-time-min">2022-04-12</p>
+                </div>
+              </div>
+              <div class="seat-box">
+                <p class="seat">A车/5座/2.0T</p>
+                <p class="price">¥100</p>
+              </div>
+            </div>
+          </div>
+          <div class="hot-car-item">
+            <img class="hot-car-img" src="../src/img/car10.png" />
+            <div class="hot-car-box">
+              <div class="hot-cat-text-box">
+                <div class="hot-cat-time-item">
+                  <p class="hot-time-data">深圳</p>
+                  <p class="hot-time-min">2022-04-12</p>
+                </div>
+                <img
+                  class="hot-time-arrow"
+                  src="../src/icon/right-arrow-min.png"
+                  alt=""
+                />
+                <div class="hot-cat-time-item hot-cat-time-item--right">
+                  <p class="hot-time-data hot-time-data--right">上海</p>
+                  <p class="hot-time-min">2022-04-12</p>
+                </div>
+              </div>
+              <div class="seat-box">
+                <p class="seat">A车/5座/2.0T</p>
+                <p class="price">¥100</p>
+              </div>
+            </div>
+          </div>
+          <div class="hot-car-item">
+            <img class="hot-car-img" src="../src/img/car10.png" />
+            <div class="hot-car-box">
+              <div class="hot-cat-text-box">
+                <div class="hot-cat-time-item">
+                  <p class="hot-time-data">深圳</p>
+                  <p class="hot-time-min">2022-04-12</p>
+                </div>
+                <img
+                  class="hot-time-arrow"
+                  src="../src/icon/right-arrow-min.png"
+                  alt=""
+                />
+                <div class="hot-cat-time-item hot-cat-time-item--right">
+                  <p class="hot-time-data hot-time-data--right">上海</p>
+                  <p class="hot-time-min">2022-04-12</p>
+                </div>
+              </div>
+              <div class="seat-box">
+                <p class="seat">A车/5座/2.0T</p>
+                <p class="price">¥100</p>
+              </div>
+            </div>
+          </div>
+          <div class="hot-car-item">
+            <img class="hot-car-img" src="../src/img/car10.png" />
+            <div class="hot-car-box">
+              <div class="hot-cat-text-box">
+                <div class="hot-cat-time-item">
+                  <p class="hot-time-data">深圳</p>
+                  <p class="hot-time-min">2022-04-12</p>
+                </div>
+                <img
+                  class="hot-time-arrow"
+                  src="../src/icon/right-arrow-min.png"
+                  alt=""
+                />
+                <div class="hot-cat-time-item hot-cat-time-item--right">
+                  <p class="hot-time-data hot-time-data--right">上海</p>
+                  <p class="hot-time-min">2022-04-12</p>
+                </div>
+              </div>
+              <div class="seat-box">
+                <p class="seat">A车/5座/2.0T</p>
+                <p class="price">¥100</p>
+              </div>
+            </div>
+          </div>
+          <div class="hot-car-item">
+            <img class="hot-car-img" src="../src/img/car10.png" />
+            <div class="hot-car-box">
+              <div class="hot-cat-text-box">
+                <div class="hot-cat-time-item">
+                  <p class="hot-time-data">深圳</p>
+                  <p class="hot-time-min">2022-04-12</p>
+                </div>
+                <img
+                  class="hot-time-arrow"
+                  src="../src/icon/right-arrow-min.png"
+                  alt=""
+                />
+                <div class="hot-cat-time-item hot-cat-time-item--right">
+                  <p class="hot-time-data hot-time-data--right">上海</p>
+                  <p class="hot-time-min">2022-04-12</p>
+                </div>
+              </div>
+              <div class="seat-box">
+                <p class="seat">A车/5座/2.0T</p>
+                <p class="price">¥100</p>
+              </div>
+            </div>
+          </div>
+          <div class="hot-car-item">
+            <img class="hot-car-img" src="../src/img/car10.png" />
+            <div class="hot-car-box">
+              <div class="hot-cat-text-box">
+                <div class="hot-cat-time-item">
+                  <p class="hot-time-data">深圳</p>
+                  <p class="hot-time-min">2022-04-12</p>
+                </div>
+                <img
+                  class="hot-time-arrow"
+                  src="../src/icon/right-arrow-min.png"
+                  alt=""
+                />
+                <div class="hot-cat-time-item hot-cat-time-item--right">
+                  <p class="hot-time-data hot-time-data--right">上海</p>
+                  <p class="hot-time-min">2022-04-12</p>
+                </div>
+              </div>
+              <div class="seat-box">
+                <p class="seat">A车/5座/2.0T</p>
+                <p class="price">¥100</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <nav class="nav-section">
+      <div class="nav-box">
+        <a class="goto-view" href="../index.html">
+          <div class="nav-item">
+            <div class="nav-img-box">
+              <img class="nav-img" src="../src/icon/function08.png" alt="" />
+            </div>
+            <span class="nav-text">首页</span>
+          </div>
+        </a>
+        <a class="goto-view" href="./bycar.html">
+          <div class="nav-item">
+            <div class="nav-img-box">
+              <img class="nav-img" src="../src/icon/function05.png" alt="" />
+            </div>
+            <span class="nav-text">买车</span>
+          </div>
+        </a>
+        <a class="goto-view" href="#">
+          <div class="nav-item nav-item--active">
+            <div class="nav-img-box">
+              <img
+                class="nav-img"
+                src="../src/icon/function07-active.png"
+                alt=""
+              />
+            </div>
+            <span class="nav-text">租车</span>
+          </div>
+        </a>
+        <a class="goto-view" href="./sellcar.html">
+          <div class="nav-item">
+            <div class="nav-img-box">
+              <img class="nav-img" src="../src/icon/function06.png" alt="" />
+            </div>
+            <span class="nav-text">卖车</span>
+          </div>
+        </a>
+        <a class="goto-view" href="./my.html">
+          <div class="nav-item">
+            <div class="nav-img-box">
+              <img class="nav-img" src="../src/icon/function09.png" alt="" />
+            </div>
+            <span class="nav-text">我的</span>
+          </div>
+        </a>
       </div>
-    </section>
-    <section class="choose-address-section">
-      <div class="choose-address-box">
-        <div class="choose-head">
-          <div class="select-box">
-            <select class="choose-select" name="" id="">
-              <option value="">深圳</option>
-              <option value="">深圳</option>
-              <option value="">深圳</option>
-            </select>
-          </div>
-
-          <div class="head-text-box">
-            <p class="head-text-title">深圳大厦自助点</p>
-            <p class="head-text-badge">该门店仅支持自助取车</p>
-          </div>
-        </div>
-        <div class="choose-address">
-          <div class="select-box">
-            <select class="choose-select" name="" id="">
-              <option value="">深圳</option>
-              <option value="">深圳</option>
-              <option value="">深圳</option>
-            </select>
-          </div>
-          <div class="address-text-box">
-            <p class="address-text-title">深圳金融大厦网点</p>
-            <p class="address-text-badge">
-              <span class="text-badge-item">上门</span><span class="text-badge-item text-badge-item--active">到店</span>
-            </p>
-          </div>
-        </div>
-        <div class="choose-time">
-          <div class="choose-time-item">
-            <p class="time-data">2023-04-12</p>
-            <p class="time-min">08:00</p>
-          </div>
-          <div class="choose-time-item">
-            <p class="time-data-span">1天</p>
-            <img class="time-arrow" src="../src/icon/right-arrow.png" alt="" />
-          </div>
-          <div class="choose-time-item">
-            <p class="time-data">2023-04-12</p>
-            <p class="time-min">08:00</p>
-          </div>
-        </div>
-        <bottom class="choose-car-bottom">立即选车</bottom>
-      </div>
-    </section>
-    <section class="hot-car-section">
-      <div class="hot-cat-title-box">
-        <span class="hot-cat-title">顺风车推荐</span>
-        <span class="hot-cat-look-all">查看全部&nbsp;&nbsp;></span>
-      </div>
-      <div class="hot-car-box">
-        <div class="hot-car-item">
-          <img class="hot-car-img" src="../src/img/car10.png" />
-          <div class="hot-car-box">
-            <div class="hot-cat-text-box">
-              <div class="hot-cat-time-item">
-                <p class="hot-time-data">深圳</p>
-                <p class="hot-time-min">2022-04-12</p>
-              </div>
-              <img class="hot-time-arrow" src="../src/icon/right-arrow-min.png" alt="" />
-              <div class="hot-cat-time-item hot-cat-time-item--right">
-                <p class="hot-time-data hot-time-data--right">上海</p>
-                <p class="hot-time-min">2022-04-12</p>
-              </div>
-            </div>
-            <div class="seat-box">
-              <p class="seat">A车/5座/2.0T</p>
-              <p class="price">¥100</p>
-            </div>
-          </div>
-        </div>
-        <div class="hot-car-item">
-          <img class="hot-car-img" src="../src/img/car10.png" />
-          <div class="hot-car-box">
-            <div class="hot-cat-text-box">
-              <div class="hot-cat-time-item">
-                <p class="hot-time-data">深圳</p>
-                <p class="hot-time-min">2022-04-12</p>
-              </div>
-              <img class="hot-time-arrow" src="../src/icon/right-arrow-min.png" alt="" />
-              <div class="hot-cat-time-item hot-cat-time-item--right">
-                <p class="hot-time-data hot-time-data--right">上海</p>
-                <p class="hot-time-min">2022-04-12</p>
-              </div>
-            </div>
-            <div class="seat-box">
-              <p class="seat">A车/5座/2.0T</p>
-              <p class="price">¥100</p>
-            </div>
-          </div>
-        </div>
-        <div class="hot-car-item">
-          <img class="hot-car-img" src="../src/img/car10.png" />
-          <div class="hot-car-box">
-            <div class="hot-cat-text-box">
-              <div class="hot-cat-time-item">
-                <p class="hot-time-data">深圳</p>
-                <p class="hot-time-min">2022-04-12</p>
-              </div>
-              <img class="hot-time-arrow" src="../src/icon/right-arrow-min.png" alt="" />
-              <div class="hot-cat-time-item hot-cat-time-item--right">
-                <p class="hot-time-data hot-time-data--right">上海</p>
-                <p class="hot-time-min">2022-04-12</p>
-              </div>
-            </div>
-            <div class="seat-box">
-              <p class="seat">A车/5座/2.0T</p>
-              <p class="price">¥100</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-  <nav class="nav-section">
-    <div class="nav-box">
-      <a class="goto-view" href="../index.html">
-        <div class="nav-item">
-          <div class="nav-img-box">
-            <img class="nav-img" src="../src/icon/function08.png" alt="" />
-          </div>
-          <span class="nav-text">首页</span>
-        </div>
-      </a>
-      <a class="goto-view" href="./bycar.html">
-        <div class="nav-item">
-          <div class="nav-img-box">
-            <img class="nav-img" src="../src/icon/function05.png" alt="" />
-          </div>
-          <span class="nav-text">买车</span>
-        </div>
-      </a>
-      <a class="goto-view" href="#">
-        <div class="nav-item nav-item--active">
-          <div class="nav-img-box">
-            <img class="nav-img" src="../src/icon/function07-active.png" alt="" />
-          </div>
-          <span class="nav-text">租车</span>
-        </div>
-      </a>
-      <a class="goto-view" href="./sellcar.html">
-        <div class="nav-item">
-          <div class="nav-img-box">
-            <img class="nav-img" src="../src/icon/function06.png" alt="" />
-          </div>
-          <span class="nav-text">卖车</span>
-        </div>
-      </a>
-      <a class="goto-view" href="./my.html">
-        <div class="nav-item">
-          <div class="nav-img-box">
-            <img class="nav-img" src="../src/icon/function09.png" alt="" />
-          </div>
-          <span class="nav-text">我的</span>
-        </div>
-      </a>
-    </div>
-  </nav>
-</body>
-
+    </nav>
+  </body>
 </html>
