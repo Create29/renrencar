@@ -27,6 +27,7 @@
       defer
       src="../node_modules/bootstrap/dist/js/bootstrap.min.js"
     ></script>
+    <script defer src="../src/js/hitchhike.js"></script>
   </head>
   <body>
     <main class="main">
@@ -45,26 +46,25 @@
       <section class="city-section">
         <div class="city-box">
           <div class="select-box">
-              <select class="choose-select" name="" id="">
-                <option value="">出发城市</option>
-                <option value="">出发城市</option>
-                <option value="">出发城市</option>
-              </select>
-            </div>
+            <select class="choose-select" name="" id="">
+              <option value="">出发城市</option>
+              <option value="">出发城市</option>
+              <option value="">出发城市</option>
+            </select>
+          </div>
           <div class="select-box">
-              <select class="choose-select" name="" id="">
-                <option value="">到达城市</option>
-                <option value="">到达城市</option>
-                <option value="">到达城市</option>
-              </select>
-            </div>
+            <select class="choose-select" name="" id="">
+              <option value="">到达城市</option>
+              <option value="">到达城市</option>
+              <option value="">到达城市</option>
+            </select>
+          </div>
           <div class="select-box">
-              <select class="choose-select" name="" id="">
-                <option value="">用车时间</option>
-                <option value="">用车时间</option>
-                <option value="">用车时间</option>
-              </select>
-            </div>
+            <select class="choose-select" name="" id="">
+              <option value="">用车时间</option>
+              <option value="">用车时间</option>
+              <option value="">用车时间</option>
+            </select>
           </div>
         </div>
       </section>
@@ -73,22 +73,239 @@
           <div class="car-message-item">
             <div class="car-item1-box">
               <div class="car-message-img-box">
-                <img class="car-img" src="../src/img/car04.png" alt="">
+                <img class="car-img" src="../src/img/car04.png" alt="" />
               </div>
               <div class="car-message-text-box">
                 <div class="car-message-text">
                   <p class="car-message-title">上海</p>
-                  <p class="car-message-time">08-12周一</p>
+                  <p class="car-message-time">
+                    <span class="message-time">08-12</span>周一
+                  </p>
                 </div>
-                <img class="car-message-line" src="" alt="">
+                <img
+                  class="car-message-line"
+                  src="../src/img/line.png"
+                  alt=""
+                />
                 <div class="car-message-text">
-                  <p class="car-message-title">上海</p>
-                  <p class="car-message-time">08-12周一</p>
+                  <p class="car-message-title car-message-title--2">济南</p>
+                  <p class="car-message-time">
+                    <span class="message-time">08-12</span>周一
+                  </p>
                 </div>
               </div>
             </div>
-            <div>
-
+            <div class="car-item2-box">
+              <p class="car-type-message">车型信息</p>
+              <div class="car-text-box">
+                <p>A 588ku自动尊享</p>
+                <p>5座</p>
+                <p>三厢</p>
+              </div>
+            </div>
+          </div>
+          <div class="car-message-item">
+            <div class="car-item1-box">
+              <div class="car-message-img-box">
+                <img class="car-img" src="../src/img/car04.png" alt="" />
+              </div>
+              <div class="car-message-text-box">
+                <div class="car-message-text">
+                  <p class="car-message-title">上海</p>
+                  <p class="car-message-time">
+                    <span class="message-time">08-12</span>周一
+                  </p>
+                </div>
+                <img
+                  class="car-message-line"
+                  src="../src/img/line.png"
+                  alt=""
+                />
+                <div class="car-message-text">
+                  <p class="car-message-title car-message-title--2">济南</p>
+                  <p class="car-message-time">
+                    <span class="message-time">08-12</span>周一
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="car-item2-box">
+              <p class="car-type-message">车型信息</p>
+              <div class="car-text-box">
+                <p>A 588ku自动尊享</p>
+                <p>5座</p>
+                <p>三厢</p>
+              </div>
+            </div>
+          </div>
+          <div class="car-message-item">
+            <div class="car-item1-box">
+              <div class="car-message-img-box">
+                <img class="car-img" src="../src/img/car04.png" alt="" />
+              </div>
+              <div class="car-message-text-box">
+                <div class="car-message-text">
+                  <p class="car-message-title">上海</p>
+                  <p class="car-message-time">
+                    <span class="message-time">08-12</span>周一
+                  </p>
+                </div>
+                <img
+                  class="car-message-line"
+                  src="../src/img/line.png"
+                  alt=""
+                />
+                <div class="car-message-text">
+                  <p class="car-message-title car-message-title--2">济南</p>
+                  <p class="car-message-time">
+                    <span class="message-time">08-12</span>周一
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="car-item2-box">
+              <p class="car-type-message">车型信息</p>
+              <div class="car-text-box">
+                <p>A 588ku自动尊享</p>
+                <p>5座</p>
+                <p>三厢</p>
+              </div>
+            </div>
+          </div>
+          <div class="car-message-item">
+            <div class="car-item1-box">
+              <div class="car-message-img-box">
+                <img class="car-img" src="../src/img/car04.png" alt="" />
+              </div>
+              <div class="car-message-text-box">
+                <div class="car-message-text">
+                  <p class="car-message-title">上海</p>
+                  <p class="car-message-time">
+                    <span class="message-time">08-12</span>周一
+                  </p>
+                </div>
+                <img
+                  class="car-message-line"
+                  src="../src/img/line.png"
+                  alt=""
+                />
+                <div class="car-message-text">
+                  <p class="car-message-title car-message-title--2">济南</p>
+                  <p class="car-message-time">
+                    <span class="message-time">08-12</span>周一
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="car-item2-box">
+              <p class="car-type-message">车型信息</p>
+              <div class="car-text-box">
+                <p>A 588ku自动尊享</p>
+                <p>5座</p>
+                <p>三厢</p>
+              </div>
+            </div>
+          </div>
+          <div class="car-message-item">
+            <div class="car-item1-box">
+              <div class="car-message-img-box">
+                <img class="car-img" src="../src/img/car04.png" alt="" />
+              </div>
+              <div class="car-message-text-box">
+                <div class="car-message-text">
+                  <p class="car-message-title">上海</p>
+                  <p class="car-message-time">
+                    <span class="message-time">08-12</span>周一
+                  </p>
+                </div>
+                <img
+                  class="car-message-line"
+                  src="../src/img/line.png"
+                  alt=""
+                />
+                <div class="car-message-text">
+                  <p class="car-message-title car-message-title--2">济南</p>
+                  <p class="car-message-time">
+                    <span class="message-time">08-12</span>周一
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="car-item2-box">
+              <p class="car-type-message">车型信息</p>
+              <div class="car-text-box">
+                <p>A 588ku自动尊享</p>
+                <p>5座</p>
+                <p>三厢</p>
+              </div>
+            </div>
+          </div>
+          <div class="car-message-item">
+            <div class="car-item1-box">
+              <div class="car-message-img-box">
+                <img class="car-img" src="../src/img/car04.png" alt="" />
+              </div>
+              <div class="car-message-text-box">
+                <div class="car-message-text">
+                  <p class="car-message-title">上海</p>
+                  <p class="car-message-time">
+                    <span class="message-time">08-12</span>周一
+                  </p>
+                </div>
+                <img
+                  class="car-message-line"
+                  src="../src/img/line.png"
+                  alt=""
+                />
+                <div class="car-message-text">
+                  <p class="car-message-title car-message-title--2">济南</p>
+                  <p class="car-message-time">
+                    <span class="message-time">08-12</span>周一
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="car-item2-box">
+              <p class="car-type-message">车型信息</p>
+              <div class="car-text-box">
+                <p>A 588ku自动尊享</p>
+                <p>5座</p>
+                <p>三厢</p>
+              </div>
+            </div>
+          </div>
+          <div class="car-message-item">
+            <div class="car-item1-box">
+              <div class="car-message-img-box">
+                <img class="car-img" src="../src/img/car04.png" alt="" />
+              </div>
+              <div class="car-message-text-box">
+                <div class="car-message-text">
+                  <p class="car-message-title">上海</p>
+                  <p class="car-message-time">
+                    <span class="message-time">08-12</span>周一
+                  </p>
+                </div>
+                <img
+                  class="car-message-line"
+                  src="../src/img/line.png"
+                  alt=""
+                />
+                <div class="car-message-text">
+                  <p class="car-message-title car-message-title--2">济南</p>
+                  <p class="car-message-time">
+                    <span class="message-time">08-12</span>周一
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="car-item2-box">
+              <p class="car-type-message">车型信息</p>
+              <div class="car-text-box">
+                <p>A 588ku自动尊享</p>
+                <p>5座</p>
+                <p>三厢</p>
+              </div>
             </div>
           </div>
         </div>
