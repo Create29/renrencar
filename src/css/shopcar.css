@@ -1,0 +1,112 @@
+.main {
+  padding-bottom: 11.2rem;
+}
+
+
+.backsvg{
+  display: flex;
+  justify-content: space-between;
+  padding: 6.9rem 2.9rem ;
+  align-items: center;
+}
+
+.bgpng{
+    position: absolute;
+  top: 0;
+  height: 44.2rem;
+  width: 75rem;
+  z-index: -1;
+}
+.backsvg-img1-box{
+    background-color: rgba(41, 41, 41,0.7);
+    width: 4.32rem;
+    height: 4.34rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backsvg-img1{
+    position: relative;
+    
+    width: 1.24rem;
+    height: 2.22rem;
+
+    
+
+}
+.backsvg-img2{
+        width: 2.8rem;
+    height: 2.8rem;
+}
+.backsvg-img3{
+    width: 2.8rem;
+    height: 2.9rem;
+}
+
+.shopinfo{
+ 
+    margin-top: 19rem;
+}
+.shopinfo-box{
+      display: flex;
+  flex-direction: column;
+     padding: 3.4rem 2.2rem;
+  background: white;
+  border-radius: 2rem;
+  box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.2);
+  width: 69rem;
+  margin:  0 auto;
+
+}
+.shopinfo-up{
+    display: flex;
+    justify-content: space-between;
+
+}
+.shopinfo-up-box1{
+    
+
+}
+.shopinfo-up-box1 p{
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    color: #282828;
+}
+.shopinfo-up-box2{
+    display: flex;
+    align-items: center;
+    gap:1.2rem;
+}
+.shopinfo-up-box2 img{
+   width: 1.9rem;
+   height: 2.5rem;
+}
+.shopinfo-up-box2 p{
+    font-size: 2.4rem;
+    margin: 0;
+}
+.shopinfo-down{
+        display: flex;
+    justify-content: space-between;
+    margin-top: 3.6rem;
+}
+.shopinfo-down-box1{}
+.shopinfo-down-box1 p{
+    font-size: 0.4rem;
+       color: #282828;
+}
+.shopinfo-down-box2{
+background:linear-gradient(#04BEFE,#4481EB);
+height: 4.5rem;
+width: 9rem;
+border-radius: 2rem;
+
+}
+.shopinfo-down-box2 p{
+  color:#fff;
+  margin: 0;
+  text-align: center;
+    font-size: 2.4rem;
+}
