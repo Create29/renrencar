@@ -7,7 +7,7 @@
   height: 15rem;
   width: 100%;
   background: linear-gradient(#4481eb, #86defc);
-  z-index: -1;
+  z-index: 50;
 }
 /* ************************ */
 /* ************************ */
@@ -18,6 +18,11 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 200;
+  background: linear-gradient(#4481eb, #86defc);
 }
 .head-box {
   margin-bottom: 3rem;
@@ -44,8 +49,11 @@
 .city-section {
   margin-top: 0rem;
   padding: 2.7rem 3.2rem;
-  border-bottom: 0.8rem solid #e5e5e5;
-  /* background-color: #4481eb; */
+  position: fixed;
+  top: 15rem;
+  width: 100%;
+  z-index: 50;
+  background-color: #fff;
 }
 .city-box {
   display: flex;
@@ -80,15 +88,18 @@
 /* ************************ */
 /* car--section */
 .car-message-section {
+  margin-top: 25rem;
 }
 .car-message-box {
+  border-top: 0.8rem solid #e5e5e5;
 }
 .car-message-item {
-  padding: 3.4rem;
 }
 .car-item1-box {
+  padding: 3.4rem;
   display: flex;
-  gap: 4rem;
+  gap: 3.6rem;
+  border-bottom: 0.1rem solid #e5e5e5;
 }
 .car-message-img-box {
 }
@@ -99,6 +110,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .car-message-text {
 }
@@ -107,7 +119,31 @@
   color: #252525;
   font-weight: 500;
 }
+.car-message-title--2 {
+  text-align: right;
+}
 .car-message-time {
+  font-size: 2rem;
+  color: #626262;
+}
+.message-time {
+  margin-right: 0.8rem;
 }
 .car-message-line {
+  width: 18.6rem;
+  height: 1.2rem;
+}
+.car-item2-box {
+  padding: 1.9rem 3rem;
+  border-bottom: 0.8rem solid #e5e5e5;
+}
+.car-type-message {
+  font-size: 2.4rem;
+  color: #252525;
+}
+.car-text-box {
+  font-size: 2.4rem;
+  color: #858585;
+  display: flex;
+  gap: 12.6rem;
 }
