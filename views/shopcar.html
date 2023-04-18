@@ -24,7 +24,7 @@
             <div class="backsvg-img1-box">
                 <img class="backsvg-img1" src="../src/img/shopcarback2.png">
             </div>
-            <div>
+            <div class="backsvg-img2-box">
                 <img class="backsvg-img2" src="../src/img/shopcarfunction.png">
                 <img class="backsvg-img3" src="../src/icon/usedcar-lingling.png">
             </div>
@@ -44,7 +44,7 @@
 
                 <div class="shopinfo-down">
                     <div class="shopinfo-down-box1">
-                        <p>深圳市宝安区黄务街道千库大厦23号</p>
+                        <p class="shopinfo-down-box1-p">深圳市宝安区黄务街道千库大厦23号</p>
                     </div>
                     <div class="shopinfo-down-box2">
                         <p>+关注</p>
@@ -54,11 +54,163 @@
 
             </div>
         </section>
+        <section class="sectitle">
+            <div class="secbox">
+                <div>
+                    <span class="sectitle-span1">视频看车</span>
+                    <span class="sectitle-span2">看视频答题领优惠</span>
+                </div>
+                <img src="../src/icon/myfunctionlisticon-right.png">
+            </div>
+        </section>
+
+        <section class="car-Slider-section">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="mybox">
+                            <img class="carimg" src="../src/img/shopcar01.png">
+
+                        </div>
+                        <p class="mycarp1">588ku T800</p>
+                        <P class="mycarp2">2019款 2.0T 自动</P>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="mybox">
+                            <img class="carimg" src="../src/img/shopcar02.png">
+
+                        </div>
+                        <p class="mycarp1">588ku T800</p>
+                        <P class="mycarp2">2019款 2.0T 自动</P>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="mybox">
+                            <img class="carimg" src="../src/img/shopcar03.png">
+
+                        </div>
+                        <p class="mycarp1">588ku T800</p>
+                        <P class="mycarp2">2019款 2.0T 自动</P>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="mybox">
+                            <img class="carimg" src="../src/img/shopcar02.png">
+
+                        </div>
+                        <p class="mycarp1">588ku T800</p>
+                        <P class="mycarp2">2019款 2.0T 自动</P>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="mybox">
+                            <img class="carimg" src="../src/img/shopcar03.png">
+
+                        </div>
+                        <p class="mycarp1">588ku T800</p>
+                        <P class="mycarp2">2019款 2.0T 自动</P>
+                    </div>
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+
+                </div>
+            </div>
+        </section>
 
 
 
+        <section class="hot-car-section">
+            <span class="hot-car-section-span1">热销车型</span>
+            <div class="hot-car-box">
+                <a class="goto-view" href="cardetails.html">
+                    <div class="hot-car-item">
+                        <img class="hot-car-img" src="../src/img/shopcar04.png" alt="" />
+                        <div class="hot-cat-text-box">
+                            <p class="hot-cat-text">588ku T800 2019款自动</p>
+                            <p class="hot-cat-version">带天窗</p>
+                            <p class="hot-cat-auto">2019款 2.0T 自动</p>
+                            <p class="hot-cat-man-price">￥12.36万</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="goto-view" href="cardetails.html">
+                    <div class="hot-car-item">
+                        <img class="hot-car-img" src="../src/img/shopcar05.png" alt="" />
+                        <div class="hot-cat-text-box">
+                            <p class="hot-cat-text">588ku T800 2019款自动</p>
+                            <p class="hot-cat-version">带天窗</p>
+                            <p class="hot-cat-auto">2019款 2.0T 自动</p>
+                            <p class="hot-cat-man-price">￥12.36万</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="goto-view" href="cardetails.html">
+                    <div class="hot-car-item">
+                        <img class="hot-car-img" src="../src/img/shopcar04.png" alt="" />
+                        <div class="hot-cat-text-box">
+                            <p class="hot-cat-text">588ku T800 2019款自动</p>
+                            <p class="hot-cat-version">带天窗</p>
+                            <p class="hot-cat-auto">2019款 2.0T 自动</p>
+                            <p class="hot-cat-man-price">￥12.36万</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="goto-view" href="cardetails.html">
+                    <div class="hot-car-item">
+                        <img class="hot-car-img" src="../src/img/shopcar05.png" alt="" />
+                        <div class="hot-cat-text-box">
+                            <p class="hot-cat-text">588ku T800 2019款自动</p>
+                            <p class="hot-cat-version">带天窗</p>
+                            <p class="hot-cat-auto">2019款 2.0T 自动</p>
+                            <p class="hot-cat-man-price">￥12.36万</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <button class="callbutton">
+            联系店家
+        </button>
     </main>
 
+    <script src="../node_modules/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            freeMode: true,
+            // pagination: {
+            //   el: ".swiper-pagination",
+            //   clickable: true,
+            // },
+        });
+
+        ///////////////////////////////////////////////////////////
+        // 粘性导航
+        const sectionHeroEl = document.querySelector(".shopinfo");
+        const main = document.querySelector(".main");
+
+        const obs = new IntersectionObserver(
+            function (entries) {
+                const ent = entries[0];
+                if (ent.isIntersecting === false) {
+                    main.classList.add("sticky");
+                }
+                if (ent.isIntersecting === true) {
+                    main.classList.remove("sticky");
+                }
+            },
+            {
+                root: null,
+                threshold: 0,
+                rootMargin: "-60px",
+            }
+        );
+        obs.observe(sectionHeroEl);
+
+    </script>
 
 </body>
 

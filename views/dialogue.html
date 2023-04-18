@@ -22,9 +22,9 @@
                 <img class="head-img" src="../src/img/dialoguebg.png" alt="" />
             </div>
             <div class="head-content">
-                <a class="goto-view" href="./my.html">
-                    <img src="../src/icon/back.png" class="back" />
-                </a>
+
+                <img src="../src/icon/back.png" class="back" />
+
                 <span>小艾</span>
                 <img src="../src/icon/function02-white.png" class="function02icon" />
             </div>
@@ -73,6 +73,11 @@
             <img class="moreimg" src="../src/icon/more.png" alt="" />
         </nav>
     </main>
+    <script>
+        document.querySelector('.back').addEventListener('click', function () {
+            window.history.back();
+        })
+    </script>
 </body>
 
 </html>

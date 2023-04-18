@@ -43,7 +43,7 @@
 /* contentsection */
 
 .contentdiv {
-    width: 69rem;
+    width: 90%;
     background: #FFFFFF;
     border-radius: 2rem;
     box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.2);
@@ -106,7 +106,7 @@
 /* ************************ */
 /* navsection */
 .navdiv {
-    width: 69rem;
+    width: 90%;
     background: #FFFFFF;
     margin: 0 auto;
 }

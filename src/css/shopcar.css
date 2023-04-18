@@ -1,24 +1,37 @@
-.main {
-  padding-bottom: 11.2rem;
-}
-
-
-.backsvg{
-  display: flex;
-  justify-content: space-between;
-  padding: 6.9rem 2.9rem ;
-  align-items: center;
-}
-
-.bgpng{
-    position: absolute;
+.sticky .backsvg {
+  position: fixed;
   top: 0;
-  height: 44.2rem;
-  width: 75rem;
-  z-index: -1;
+  width: 100%;
+  padding: 1.2rem 3.6rem !important;
+  background: linear-gradient(var(--color-brand--1), rgb(137, 197, 240));
+  z-index: 9999;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+  transition: all 300ms;
 }
-.backsvg-img1-box{
-    background-color: rgba(41, 41, 41,0.7);
+.sticky .sectitle {
+  margin-top: 10.881rem;
+}
+
+.main {
+    padding-bottom: 11.2rem;
+}
+
+.backsvg {
+    display: flex;
+    justify-content: space-between;
+    padding: 6.9rem 2.9rem;
+    align-items: center;
+}
+
+.bgpng {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.backsvg-img1-box {
+    background-color: rgba(41, 41, 41, 0.7);
     width: 4.32rem;
     height: 4.34rem;
     border-radius: 100%;
@@ -27,86 +40,284 @@
     align-items: center;
 }
 
-.backsvg-img1{
+.backsvg-img1 {
     position: relative;
-    
     width: 1.24rem;
     height: 2.22rem;
-
-    
-
 }
-.backsvg-img2{
-        width: 2.8rem;
+
+.backsvg-img2-box {
+    display: flex;
+    gap: 1.9rem;
+}
+
+.backsvg-img2 {
+    width: 2.8rem;
     height: 2.8rem;
 }
-.backsvg-img3{
+
+.backsvg-img3 {
     width: 2.8rem;
     height: 2.9rem;
 }
 
-.shopinfo{
- 
-    margin-top: 19rem;
+.shopinfo {
+    margin-top: 14rem;
 }
-.shopinfo-box{
-      display: flex;
-  flex-direction: column;
-     padding: 3.4rem 2.2rem;
-  background: white;
-  border-radius: 2rem;
-  box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.2);
-  width: 69rem;
-  margin:  0 auto;
 
+.shopinfo-box {
+    display: flex;
+    flex-direction: column;
+    padding: 3.4rem 2.2rem;
+    background: white;
+    border-radius: 2rem;
+    box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.2);
+    width: 92%;
+
+    margin: 0 auto;
 }
-.shopinfo-up{
+
+.shopinfo-up {
     display: flex;
     justify-content: space-between;
-
 }
-.shopinfo-up-box1{
-    
 
-}
-.shopinfo-up-box1 p{
+.shopinfo-up-box1 {}
+
+.shopinfo-up-box1 p {
     font-size: 3rem;
     letter-spacing: 0.2rem;
     color: #282828;
 }
-.shopinfo-up-box2{
+
+.shopinfo-up-box2 {
     display: flex;
     align-items: center;
-    gap:1.2rem;
+    gap: 1.2rem;
 }
-.shopinfo-up-box2 img{
-   width: 1.9rem;
-   height: 2.5rem;
+
+.shopinfo-up-box2 img {
+    width: 1.9rem;
+    height: 2.5rem;
 }
-.shopinfo-up-box2 p{
+
+.shopinfo-up-box2 p {
     font-size: 2.4rem;
     margin: 0;
 }
-.shopinfo-down{
-        display: flex;
+
+.shopinfo-down {
+    display: flex;
     justify-content: space-between;
-    margin-top: 3.6rem;
+    margin-top: 1.2rem;
+    align-items: center;
 }
-.shopinfo-down-box1{}
-.shopinfo-down-box1 p{
-    font-size: 0.4rem;
-       color: #282828;
-}
-.shopinfo-down-box2{
-background:linear-gradient(#04BEFE,#4481EB);
-height: 4.5rem;
-width: 9rem;
-border-radius: 2rem;
+
+.shopinfo-down-box1 {}
+
+.shopinfo-down-box1-p {
+    font-size: 1.8rem;
+    color: #282828;
+    margin: 0;
 
 }
-.shopinfo-down-box2 p{
-  color:#fff;
-  margin: 0;
-  text-align: center;
+
+.shopinfo-down-box2 {
+    background: linear-gradient(#04befe, #4481eb);
+    height: 4.5rem;
+    width: 9rem;
+    border-radius: 2rem;
+}
+
+.shopinfo-down-box2 p {
+    color: #fff;
+    margin: 0;
+    text-align: center;
     font-size: 2.4rem;
+}
+
+.sectitle {
+    margin-top: 5.2rem;
+}
+
+.secbox {
+    padding: 0 3rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.sectitle-span1 {
+    font-size: 3rem;
+    margin-right: 1.7rem;
+    font-weight: 600;
+}
+
+.sectitle-span2 {
+    padding: 0.2rem 1.2rem;
+    font-size: 1.8rem;
+    background-color: #ffe0d4;
+    border-radius: 20rem;
+    color: #ff562f;
+}
+
+.sectitle img {
+    width: 0.99rem;
+    height: 1.84rem;
+}
+
+.mybox {
+    width: 27.5rem;
+    height: 17.4rem;
+    border-radius: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+.mybox::before{
+    content: "";
+    display: block;
+    background: url("../img/play.png");
+    background-size: 4.6rem 4.6rem;
+    width: 4.6rem ;
+    height: 4.6rem;
+    z-index: 1000;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.carimg {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.carplay {
+    position: absolute;
+    top: 50%;
+    margin: 50%;
+    width: 4.6rem;
+    height: 4.6rem;
+    z-index: 90000;
+}
+
+
+.car-Slider-section {
+    padding: 3.6rem 3rem 0;
+
+}
+
+.mycarp1 {
+    font-size: 2.8rem;
+    font-weight: 500;
+    color: #232323;
+    width: 100%;
+    margin: 0;
+}
+
+.mycarp2 {
+    font-size: 2.4rem;
+    color: #515151;
+    width: 100%;
+}
+
+.mySwiper{
+    width: 100% !important;
+}
+.swiper-wrapper {
+    width: 100% !important;
+    display: flex;
+    gap: 1.7rem;
+}
+
+.swiper-slide {
+    width: 27.4rem !important;
+    border-radius: 2rem;
+    overflow: hidden;
+    margin: 0 !important;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hot-car-section-span1{
+    font-size: 3rem;
+    margin-right: 1.7rem;
+    font-weight: 600;
+
+}
+
+.hot-car-section {
+  padding: 3.2rem 3.6rem 0;
+}
+.hot-car-item {
+  padding: 1.2rem 0;
+  display: flex;
+  align-items: center;
+  border-top: 0.1rem solid var(--color-dark--3);
+  border-bottom: #E5E5E5 0.1rem solid ;
+}
+
+.hot-car-item:first-child {
+  border-top: none;
+}
+.hot-car-img {
+  width: 24.9rem;
+  display: block;
+  border-radius: 2rem;
+}
+.hot-cat-text-box {
+  padding: 0.8rem 3.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.hot-cat-text-box * {
+  margin: 0;
+}
+.hot-cat-text {
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+.hot-cat-version {
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+.hot-cat-auto{
+      font-size: 2.4rem;
+      color: #515151;
+}
+.hot-cat-man-price {
+  font-size:3.6rem;
+  font-weight: 500;
+  color: #FF2323;
+}
+
+.hot-cat-money {
+  color: var(--color-red--3);
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+.price {
+  font-size: 3.2rem;
+  font-weight: 600;
+  margin-right: 0.2rem;
+}
+.callbutton{
+    font-size: 3rem;
+    color: #FFF;
+    padding:1rem 3rem ;
+    background: linear-gradient(#04BEFE,#4481EB);
+    border: none;
+    border-radius: 2rem;
+    position: fixed;
+    bottom: 1rem;
+    right:3.1rem ;
+    z-index: 1000;
+
 }
