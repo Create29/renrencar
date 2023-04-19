@@ -30,7 +30,7 @@ addressTextBadge.addEventListener("click", function (e) {
 
 ///////////////////////////////////////////////////////////
 // 粘性导航
-const sectionHeroEl = document.querySelector(".choose-address-section");
+const sectionHeroEl = document.querySelector(".linear-bac");
 const main = document.querySelector(".main");
 
 const obs = new IntersectionObserver(
@@ -46,7 +46,7 @@ const obs = new IntersectionObserver(
   {
     root: null,
     threshold: 0,
-    rootMargin: "-80px",
+    rootMargin: "-75px",
   }
 );
 obs.observe(sectionHeroEl);

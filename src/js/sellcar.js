@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////
 // 粘性导航
-const sectionHeroEl = document.querySelector(".floatdiv-section");
+const sectionHeroEl = document.querySelector(".back");
 const main = document.querySelector(".main");
 
 const obs = new IntersectionObserver(
@@ -16,7 +16,7 @@ const obs = new IntersectionObserver(
   {
     root: null,
     threshold: 0,
-    rootMargin: "-105.21px",
+    rootMargin: "-110px",
   }
 );
 obs.observe(sectionHeroEl);

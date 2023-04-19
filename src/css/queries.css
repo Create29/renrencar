@@ -41,6 +41,10 @@
     /* 5px / 16px */
     font-size: 31.1%;
   }
+  .king-section {
+    /* background-color: aqua; */
+    padding: 4.8rem 3.6rem 3.6rem;
+  }
   .king-icon {
     transform: translate(-50%, -50%) scale(0.6);
   }
